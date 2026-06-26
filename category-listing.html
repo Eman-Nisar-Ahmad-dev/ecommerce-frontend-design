@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Marketplace - Products Catalog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header">
+    <div class="container header-top">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo-colored.png" alt="Brand">
+        </a>
+        <form class="search-box">
+            <input type="text" placeholder="Search">
+            <select>
+                <option>All category</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+        <div class="header-icons">
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-message"></i>
+                <span>Message</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-heart"></i>
+                <span>Orders</span>
+            </a>
+            <a href="cart.html" class="icon-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>My cart</span>
+            </a>
+        </div>
+    </div>
+</header>
+    <main class="container">
+    <h2 class="cart-header">My cart (3)</h2>
+        <section class="cart-section">
+            <!-- LEFT: cart items -->
+            <div class="cart-items-card">
+                <article class="cart-item">
+                    <div class="item-thumb">
+                        <img src="assets/images/Bitmap.png" alt="Teal T-shirt">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-meta">Size: medium, Color: blue, Material: Plastic<br>Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button type="button" class="btn-pill btn-remove">Remove</button>
+                            <button type="button" class="btn-pill btn-save">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price-col">
+                        <span class="item-price">$78.99</span>
+                        <button type="button" class="qty-select">
+                            Qty: 9
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+                <article class="cart-item">
+                    <div class="item-thumb">
+                        <img src="assets/images/image 26.png" alt="Blue-bag">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-meta">Size: medium, Color: blue, Material: Plastic<br>Seller: Best factory LLC</p>
+                        <div class="item-actions">
+                            <button type="button" class="btn-pill btn-remove">Remove</button>
+                            <button type="button" class="btn-pill btn-save">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price-col">
+                        <span class="item-price">$39.00</span>
+                        <button type="button" class="qty-select">
+                            Qty: 3
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+                <article class="cart-item">
+                    <div class="item-thumb">
+                        <img src="assets/images/6.png" alt="Beige T-shirt">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">T-shirts with multiple colors, for men and lady </h3>
+                        <p class="item-meta">Size: medium, Color: blue, Material: Plastic<br>Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button type="button" class="btn-pill btn-remove">Remove</button>
+                            <button type="button" class="btn-pill btn-save">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price-col">
+                        <span class="item-price">$170.50</span>
+                        <button type="button" class="qty-select">
+                            Qty: 1
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+                <div class="cart-card-footer">
+                    <a href="#" class="btn-back">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        Back to shop
+                    </a>
+                    <a href="#" class="link-remove-all">Remove all</a>
+                </div>
+            </div>
+            <!-- RIGHT: order summary -->
+            <aside class="summary-col">
+                <div class="coupon-card">
+                    <h4>Have a coupon?</h4>
+                    <div class="coupon-input-row">
+                        <input type="text" placeholder="Add coupon">
+                        <button type="button" class="btn-apply">Apply</button>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span>$1403.97</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Discount:</span>
+                        <span class="value-discount">- $60.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax:</span>
+                        <span class="value-tax">+ $14.00</span>
+                    </div>
+                    <hr class="summary-divider">
+                    <div class="summary-total">
+                        <span>Total:</span>
+                        <span>$1357.97</span>
+                    </div>
+                    <button type="button" class="btn-checkout">Checkout</button>
+                    <div class="payment-icons">
+   <img src="assets/images/AS.PNG">
+   <img src="assets/images/mastercard.PNG">
+   <img src="assets/images/paypal.PNG">
+   <img src="assets/images/visa.PNG">
+   <img src="assets/images/applepay.PNG">
+</div>
+                </div>
+            </aside>
+        </section>
+        <!-- TRUST STRIP -->
+     <section class="trust-strip">
+        <div class="trust-item">
+    <div class="trust-icon">
+        <i class="fa-solid fa-lock"></i>
+    </div>
+    <div class="trust-text">
+        <strong>Secure payment</strong>
+        <span>Have you ever finally just</span>
+    </div>
+</div>
+      <div class="trust-item">
+    <div class="trust-icon">
+        <i class="fa-regular fa-message"></i>
+    </div>
+    <div class="trust-text">
+        <strong>Customer support</strong>
+        <span>Have you ever finally just</span>
+    </div>
+</div>
+      <div class="trust-item">
+    <div class="trust-icon">
+        <i class="fa-solid fa-truck"></i>
+    </div>
+    <div class="trust-text">
+        <strong>Free delivery</strong>
+        <span>Have you ever finally just</span>
+    </div>
+</div>
+        </section>
+        <section class="saved-section">
+    <h3>Saved for later</h3>
+    <div class="saved-grid">
+        <div class="saved-card">
+            <div class="saved-card-img"><img src="assets/images/image 32.png" alt="Tablet"></div>
+            <p class="saved-price">$99.50 </p>
+            <p class="saved-name">GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move-cart">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Move to cart
+</button>
+        </div>
+        <div class="saved-card">
+            <div class="saved-card-img"><img src="assets/images/image 23.png" alt="Phone"></div>
+            <p class="saved-price">$99.50</p>
+            <p class="saved-name">GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move-cart">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Move to cart
+</button>
+        </div>
+        <div class="saved-card">
+            <div class="saved-card-img"><img src="assets/images/8.png" alt="Smart watch"></div>
+            <p class="saved-price">$99.50</p>
+            <p class="saved-name">GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move-cart">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Move to cart
+</button>
+        </div>
+        <div class="saved-card">
+            <div class="saved-card-img"><img src="assets/images/image 34.png" alt="Laptop"></div>
+            <p class="saved-price">$99.50</p>
+            <p class="saved-name">GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move-cart">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Move to cart
+</button>
+        </div>
+    </div>
+</section>
+<section class="discount-banner">
+    <div class="discount-left">
+        <h3>Super discount on more than 100 USD</h3>
+        <p>Have you ever finally just write dummy info</p>
+    </div>
+    <button>Shop now</button>
+</section>
+</main>
+<!-- =========================FOOTER========================= -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <!-- COLUMN 1 -->
+        <div class="footer-brand">
+            <img
+                src="assets/images/logo-colored.png"
+                alt="Brand"
+            >
+            <p>
+                Best information about the company goes here but now
+                lorem ipsum is.
+            </p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <!-- COLUMN 2 -->
+        <div>
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+
+            </ul>
+        </div>
+        <!-- COLUMN 3 -->
+        <div>
+            <h4>Partnership</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 4 -->
+        <div>
+            <h4>Information</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Money Refund</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 5 -->
+        <div>
+            <h4>For users</h4>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">My Orders</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 6 -->
+        <div>
+            <h4>Get app</h4>
+            <div class="app-buttons">
+                <img
+                    src="assets/images/Group.png"
+                    alt="App Store"
+                >
+                <img
+                    src="assets/images/market-button.png"
+                    alt="Google Play"
+                >
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- =========================FOOTER BOTTOM ========================= -->
+<div class="footer-bottom">
+    <div class="container footer-bottom-wrapper">
+        <p>
+            © 2023 Ecommerce.
+        </p>
+        <div class="footer-language">
+            <img
+                src="assets/images/DE@2x.png"
+                alt="Germany"
+            >
+            English
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </div>
+</div>
+</body>
+</html>

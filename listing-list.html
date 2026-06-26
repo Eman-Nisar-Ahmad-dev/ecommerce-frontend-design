@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Catalog View - List Layout Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header">
+    <div class="container header-top">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo-colored.png" alt="Brand">
+        </a>
+        <form class="search-box">
+            <input type="text" placeholder="Search">
+            <select>
+                <option>All category</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+        <div class="header-icons">
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-message"></i>
+                <span>Message</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fa-solid fa-heart"></i>
+                <span>Orders</span>
+            </a>
+            <a href="cart.html" class="icon-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>My cart</span>
+            </a>
+        </div>
+    </div>
+</header>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container nav-wrapper">
+        <div class="nav-left">
+            <a href="#">
+                <i class="fa-solid fa-bars"></i>
+                All category
+            </a>
+            <a href="#">Hot offers</a>
+            <a href="#">Gift boxes</a>
+            <a href="#">Projects</a>
+            <a href="#">Menu item</a>
+            <a href="#">
+                Help
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+        </div>
+        <div class="nav-right">
+            <div class="language-box">
+                English, USD
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="ship-country">
+                Ship to
+                <img src="assets/images/DE@2x.png" alt="">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- BREADCRUMB -->
+<section class="container breadcrumb-section">
+    <div class="breadcrumb">
+        <a href="#">Home</a>
+        <span>></span>
+        <a href="#">Clothings</a>
+        <span>></span>
+        <a href="#">Men's wear</a>
+        <span>></span>
+        <span>Summer clothing</span>
+    </div>
+</section>
+<!-- LISTING PAGE -->
+<section class="container listing-page">
+    <!-- LEFT SIDEBAR -->
+    <aside class="filters-sidebar">
+        <!-- CATEGORY -->
+        <div class="filter-group">
+            <div class="filter-title">
+                <h4>Category</h4>
+            </div>
+            <ul>
+                <li>Mobile accessory</li>
+                <li>Electronics</li>
+                <li>Smartphones</li>
+                <li>Modern tech</li>
+                <a href="#" class="see-all">See all</a>
+            </ul>
+        </div>
+        <!-- BRANDS -->
+        <div class="filter-group">
+            <div class="filter-title">
+                <h4>Brands</h4>
+            </div>
+            <label><input type="checkbox"> Samsung</label>
+            <label><input type="checkbox"> Apple</label>
+            <label><input type="checkbox"> Huawei</label>
+            <label><input type="checkbox"> Pocco</label>
+            <label><input type="checkbox"> Lenovo</label>
+            <a href="#" class="see-all">See all</a>
+        </div>
+        <!-- FEATURES -->
+        <div class="filter-group">
+            <div class="filter-title">
+                <h4>Features</h4>
+            </div>
+            <label><input type="checkbox"> Metallic</label>
+            <label><input type="checkbox"> Plastic cover</label>
+            <label><input type="checkbox"> 8GB Ram</label>
+            <label><input type="checkbox"> Super power</label>
+            <label><input type="checkbox"> Large Memory</label>
+            <a href="#" class="see-all">See all</a>
+        </div>
+        <!-- PRICE RANGE -->
+<div class="filter-section">
+    <div class="filter-header">
+        <h4>Price range</h4>
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <div class="price-slider">
+        <input type="range" min="0" max="100000" value="25000">
+    </div>
+
+    <div class="price-inputs">
+        <div>
+            <label>Min</label>
+            <input type="text" placeholder="0">
+        </div>
+
+        <div>
+            <label>Max</label>
+            <input type="text" placeholder="999999">
+        </div>
+    </div>
+
+    <button class="apply-btn">Apply</button>
+</div>
+
+<!-- CONDITION -->
+<div class="filter-section">
+    <div class="filter-header">
+        <h4>Condition</h4>
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+
+    <label><input type="radio" name="condition" checked> Any</label>
+    <label><input type="radio" name="condition"> Refurbished</label>
+    <label><input type="radio" name="condition"> Brand new</label>
+    <label><input type="radio" name="condition"> Old items</label>
+</div>
+<!-- RATINGS -->
+<div class="filter-section">
+    <div class="filter-header">
+        <h4>Ratings</h4>
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+<label class="rating-option">
+    <input type="checkbox">
+    <span class="filled">★★★★★</span>
+</label>
+<label class="rating-option">
+    <input type="checkbox">
+    <span class="filled">★★★★</span><span class="empty">★</span>
+</label>
+<label class="rating-option">
+    <input type="checkbox">
+    <span class="filled">★★★</span><span class="empty">★★</span>
+</label>
+<label class="rating-option">
+    <input type="checkbox">
+    <span class="filled">★★</span><span class="empty">★★★</span>
+</label>
+</div>
+</div>
+    </aside>
+    <!-- RIGHT CONTENT -->
+    <div class="listing-content">
+        <!-- TOP BAR -->
+        <div class="listing-topbar">
+            <div class="items-count">
+                12,911 items in <strong>Mobile accessory</strong>
+            </div>
+            <div class="topbar-right">
+                <label class="verified-check">
+                    <input type="checkbox" checked>
+                    Verified only
+                </label>
+                <select>
+                    <option>Featured</option>
+                </select>
+
+                <div class="view-icons">
+                    <button>
+                        <i class="fa-solid fa-grip"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- PRODUCTS START HERE -->
+       <div id="product-list">
+    <!-- PRODUCT 1 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/image 33.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>Canon Camera EOS 2000, Black 10x zoom</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+                <span class="old-price">$1128.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+    <!-- PRODUCT 2 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/image 23.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>GoPro HERO 4K Action Camera - Black</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Ut enim ad minim veniam quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+    <!-- PRODUCT 3 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/image 32.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>Xiaomi Tablet PC Modern Edition</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Ut enim ad minim veniam quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+    <!-- PRODUCT 4 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/image 34.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>MacBook Pro Laptop Modern Series</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Ut enim ad minim veniam quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+ <!-- PRODUCT 5 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/08.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>MacBook Pro Laptop Modern Series</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Ut enim ad minim veniam quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+     <!-- PRODUCT 6 -->
+    <div class="list-product-card">
+        <div class="product-image">
+            <img src="assets/images/image 86.png" alt="">
+        </div>
+        <div class="product-info">
+            <h3>MacBook Pro Laptop Modern Series</h3>
+            <div class="price-row">
+                <span class="price">$998.00</span>
+            </div>
+            <div class="rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating">7.5</span>
+                <span class="orders">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p>
+                Ut enim ad minim veniam quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#">View details</a>
+        </div>
+        <button class="wishlist-btn">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+    </div>
+</div>
+    </div>
+</section>
+<!-- PAGINATION START -->
+<div class="pagination-wrap">
+    <select>
+        <option>Show 10</option>
+    </select>
+    <div class="pagination">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+</div>
+<!-- =========================NEWSLETTER========================= -->
+<section class="newsletter">
+    <div class="container">
+        <h2>
+            Subscribe on our newsletter
+        </h2>
+        <p>
+            Get daily news on upcoming offers from many suppliers all over the world
+        </p>
+        <form class="newsletter-form">
+            <div class="newsletter-input">
+                <i class="fa-regular fa-envelope"></i>
+                <input
+                    type="email"
+                    placeholder="Email"
+                >
+            </div>
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</section>
+<!-- =========================FOOTER========================= -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <!-- COLUMN 1 -->
+        <div class="footer-brand">
+            <img
+                src="assets/images/logo-colored.png"
+                alt="Brand"   >
+            <p>
+                Best information about the company goes here but now
+                lorem ipsum is.
+            </p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <!-- COLUMN 2 -->
+        <div>
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+
+            </ul>
+        </div>
+        <!-- COLUMN 3 -->
+        <div>
+            <h4>Partnership</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 4 -->
+        <div>
+            <h4>Information</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Money Refund</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 5 -->
+        <div>
+            <h4>For users</h4>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">My Orders</a></li>
+            </ul>
+        </div>
+        <!-- COLUMN 6 -->
+        <div>
+            <h4>Get app</h4>
+            <div class="app-buttons">
+                <img
+                    src="assets/images/Group.png"
+                    alt="App Store"
+                >
+                <img
+                    src="assets/images/market-button.png"
+                    alt="Google Play"
+                >
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- =========================FOOTER BOTTOM ========================= -->
+<div class="footer-bottom">
+    <div class="container footer-bottom-wrapper">
+        <p>
+            © 2023 Ecommerce.
+        </p>
+        <div class="footer-language">
+            <img
+                src="assets/images/DE@2x.png"
+                alt="Germany"
+            >
+            English
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </div>
+</div>
+</body>
+</html>
