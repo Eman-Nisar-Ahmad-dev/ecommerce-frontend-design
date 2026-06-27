@@ -7,7 +7,7 @@ A responsive multi-page Ecommerce website built using **HTML5**, **CSS3**, and *
 ## 🌐 Live Demo
 
 **Deployed Project:**  
-https://Eman-Nisar-Ahmad-dev.github.io/ecommerce-frontend-design/
+https://eman-nisar-ahmad-dev.github.io/ecommerce-frontend-design/
 
 **GitHub Repository:**  
 https://github.com/Eman-Nisar-Ahmad-dev/ecommerce-frontend-design
@@ -83,7 +83,7 @@ ecommerce-frontend-design/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Eman-Nisar-Ahmad-dev/ecommerce-frontend-design.git
+git clone https://eman-nisar-ahmad-dev.github.io/ecommerce-frontend-design/
 ```
 
 2. Open the project folder.
